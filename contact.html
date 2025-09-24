@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe World - Delicious Home Cooking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+  <!-- Header Section -->
+  <header class="header">
+    <nav class="navigation" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link nav-link--active">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="recipes.html" class="nav-link">Recipes</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+   <section id="contact" class="page-section">
+      <div class="container">
+        <h1 class="page-title">📩 Contact Us</h1>
+        <p class="page-subtitle">We'd love to hear from you! Send us your questions or feedback.</p>
+        
+        <div class="form-container">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" placeholder="What would you like to tell us?" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+          <p id="formMessage" style="margin-top: 1rem; text-align: center;"></p>
+        </div>
+        
+        <div class="about-text" style="margin-top: 3rem;">
+          <h3 style="text-align: left; margin-bottom: 1rem;">Visit Our Kitchen</h3>
+          <p style="text-align: left;">123 Recipe Street, Foodville<br>Open Monday-Friday: 9am-5pm</p>
+          <p style="text-align: left; margin-top: 1rem;">Email: hello@recipeworld.com<br>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        © 2025 Recipe World | Made with <span class="footer__emoji">❤️</span> and <span class="footer__emoji">🌶️</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
